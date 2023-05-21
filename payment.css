@@ -1,0 +1,118 @@
+.rounded-button {
+    background-color: #003C68;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    }
+
+    .card {
+        height: 100%;
+
+    }
+
+    .rounded-button:hover {
+        background-color: #0069d9;
+        transition: background-color 0.3s ease-in-out;
+      }
+
+    .rounded-button:hover img {
+        transform: translateX(5px);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .body{
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* .navbar-brand{
+        background-color: #0f2535;
+      } */
+      .navbar {
+          background-color: #0f2535;
+        }
+      
+        .navbar-brand {
+          color: white;
+        }
+      
+        .navbar-brand img {
+          height: 40px;
+          margin-right: 10px;
+        }
+      
+        .navbar-brand span {
+          color: white;
+        }
+      
+        .navbar-nav .nav-link {
+          color: white;
+          position: relative;
+          font-weight: 100;
+        }
+      
+        .navbar-nav .nav-link::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          bottom: -4px;
+          left: 0;
+          background-color: transparent;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out;
+        }
+      
+        .navbar-nav .nav-link:hover::before,
+        .navbar-nav .nav-link.active::before {
+          visibility: visible;
+          transform: scaleX(1);
+          background-color: #ffc107; /* Change the hover/active line color as desired */
+        }
+      
+        #hamburger-btn .navbar-toggler-icon {
+          color: white;
+        }
+
+        .transparent-navbar {
+          background-color: transparent;
+          transition: background-color 0.3s ease;
+        }
+        
+        .solid-navbar {
+          background-color: #0f2535; /* Replace with your desired solid background color */
+        }
+        
+      
+        @media (max-width: 767px) {
+          .navbar-nav {
+            justify-content: center;
+          }
+        }
+     
+        .vertical-line {
+          height: 50px;
+          width: 5px;
+          background-color: #ffffff;
+          margin-right: 10px;
+        }
+        
+        .btn {
+          background-color: #003C68;
+          color: white;
+          border-radius: 5px; /* adjust the value as needed to change the roundness of the edge */
+          /* padding: 10xp 20px; */
+          cursor: pointer;
+          transition: 0.3s ease;
+          }
+          
+          /* Hover effect for the button */
+          .rounded-button:hover {
+          background-color: #0992bf;
+          }
+          
+          ul.list-unstyled li a {
+            text-decoration: none !important;
+          }
+          
